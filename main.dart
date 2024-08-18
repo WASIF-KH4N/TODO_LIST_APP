@@ -44,32 +44,31 @@ class TodoListScreenState extends State<TodoListScreen> {
       ),
 
     body: Stack(
-    children: [
+         children: [
     // Stylish background
-    Container(
-    decoration: BoxDecoration(
-    gradient: LinearGradient(
-    colors: [Colors.black, Colors.red],
-    begin: Alignment.topLeft,
-    end: Alignment.bottomRight,
-    ),
-    ),
-    ),
-    // Todo list
-    Padding(
-    padding: const EdgeInsets.all(20.0),
-    child: SingleChildScrollView(
-    child: Column(
-    mainAxisSize: MainAxisSize.min,
-    children: [
-    TextField(
-       controller: textController,
-        decoration: InputDecoration(
-         labelText: 'Add Todo Item',
-          labelStyle: TextStyle(color: Colors.white), // Changed here
-           border: OutlineInputBorder(),
-            enabledBorder: OutlineInputBorder(
-              borderSide: BorderSide(color: Colors.white),
+             Container(
+               decoration: BoxDecoration(
+                gradient: LinearGradient(
+                 colors: [Colors.black, Colors.red],
+                   begin: Alignment.topLeft,
+               end: Alignment.bottomRight,
+        ),
+       ),
+      ),
+            // Todo list
+         Padding(
+             padding: const EdgeInsets.all(20.0),
+              child: SingleChildScrollView(
+               child: Column(
+                 mainAxisSize: MainAxisSize.min,
+                   children:[TextField(
+                 controller: textController,
+                decoration: InputDecoration(
+             labelText: 'Add Todo Item',
+           labelStyle: TextStyle(color: Colors.white), // Changed here
+          border: OutlineInputBorder(),
+          enabledBorder: OutlineInputBorder(
+        borderSide: BorderSide(color: Colors.white),
     ),
       focusedBorder: OutlineInputBorder(
        borderSide: BorderSide(color: Colors.white),
