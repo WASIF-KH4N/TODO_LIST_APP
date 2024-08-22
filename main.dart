@@ -32,7 +32,7 @@ class TodoListScreenState extends State<TodoListScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Center(child: Text('TODO LIST APP', style: TextStyle(color: Colors.white,fontWeight: FontWeight.w500),)),
+        title: Center(child: Text('TODO LIST APP', style: TextStyle(color: Colors.white,fontWeight: FontWeight.w600),)),
         flexibleSpace:  Container(
             decoration: const BoxDecoration(
               gradient: LinearGradient(
