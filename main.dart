@@ -57,7 +57,7 @@ class TodoListScreenState extends State<TodoListScreen> {
       ),
             // Todo list
          Padding(
-             padding: const EdgeInsets.all(20.0),
+             padding: const EdgeInsets.all(22.0),
               child: SingleChildScrollView(
                child: Column(
                  mainAxisSize: MainAxisSize.min,
