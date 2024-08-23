@@ -76,7 +76,7 @@ class TodoListScreenState extends State<TodoListScreen> {
     ),
     style: TextStyle(color: Colors.white),
     ),
-        SizedBox(height: 10),
+        SizedBox(height: 12),
         ElevatedButton(
          onPressed: () {
           setState(() {
@@ -87,7 +87,7 @@ class TodoListScreenState extends State<TodoListScreen> {
         child: Text('Add', style: TextStyle(color: Colors.white)),
           style: ElevatedButton.styleFrom(backgroundColor: Colors.black87),
        ),
-    SizedBox(height: 20),
+    SizedBox(height: 21),
     ListView.builder(
     shrinkWrap: true,
         physics: NeverScrollableScrollPhysics(),
