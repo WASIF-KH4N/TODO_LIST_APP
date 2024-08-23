@@ -51,7 +51,7 @@ class TodoListScreenState extends State<TodoListScreen> {
                 gradient: LinearGradient(
                  colors: [Colors.black, Colors.red],
                    begin: Alignment.topLeft,
-               end: Alignment.bottomRight,
+                     end: Alignment.bottomRight,
         ),
        ),
       ),
